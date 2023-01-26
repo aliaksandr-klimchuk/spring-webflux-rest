@@ -7,6 +7,10 @@ jobs:
   build:
     docker:
       - image: cimg/openjdk:18.0.2
+      - image: circleci/mongo:latest
+        environment:
+          MONGO_INITDB_ROOT_USERNAME: user
+          MONGO_INITDB_ROOT_PASSWORD: pass
     steps:
       - checkout
       - run:
