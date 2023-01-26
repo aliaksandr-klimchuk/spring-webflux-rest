@@ -1,0 +1,14 @@
+spring:
+  logging:
+    level: debug
+  data:
+    mongodb:
+#      authentication-database: admin
+#      database: recipe
+#      username: root
+#      password: root
+      host: localhost
+      port: 27017
+  jackson:
+    serialization:
+      indent-output: true
