@@ -1,5 +1,5 @@
 ### Spring WebFlux REST
-Spring Web Application written to understand RESTful WebServices and Spring WebFlux Framework concept. 
+Spring Web Application written to understand RESTful WebServices and Spring WebFlux Framework concept.  
 
 
 
